@@ -56,16 +56,16 @@ Turn in both programs, and the chart as an xls file. Also, in a readme, tell me 
 - Do we have to create a mechanism to get at the original values to compute the RMS error when unpacking the bitstream? Yes
 
 ### Additional Information:
-- executable.bat is the file which will generate all the cases on launching.
+- **executable.bat** is the file which will generate all the cases on launching.
 
-- The .bat needs only verts.txt. 
+- The **executable.bat** needs only **verts.txt**. 
 
-- It will generate a vertData.txt file with vert data only (Using InputGenerator.exe).
+- It will generate a **vertData.txt** file with vert data only (Using **InputGenerator.exe**).
 
-- Program1.exe would use vertData.txt and values from 5-16 to generate compressedVertData%d.bin.
+- **Program1.exe** would use vertData.txt and values from 5-16 to generate **compressedVertData%d.bin**.
 
-- Program2.exe would use compressedVertData%d.bin to decompress the data and compare the values against those in value vertData.txt.
+- **Program2.exe** would use **compressedVertData%d.bin** to decompress the data and compare the values against those in value **vertData.txt**.
 
 - The RMS error values are printed in the the code itself and can be viewed in cmd while executing.
 
-- Assignment2.xlsx has the graph plot of RMS values vs. File sizes.
+- **Assignment2.xlsx** has the graph plot of RMS values vs. File sizes.
